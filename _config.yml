@@ -5,6 +5,8 @@ description: "Mobile web maker. Design, urbanism, futurology, and the human cond
 baseurl: ""
 url: "http://terrencewood.com"
 
+exclude: ['README.md', 'package.json', 'node_modules', 'bower_components']
+
 # Build settings
 markdown: kramdown
 permalink: pretty
@@ -13,10 +15,11 @@ permalink: pretty
 # prose.io
 
 prose: 
-  metadata:
-    _posts:
-      - name: "noindex"
-      field:
-       element: "checkbox"
-       label: "prevent google indexing"
-       value: false
+metadata:
+"source/_posts": |
+  layout: post
+  title: "New Post"
+  author:
+  - Terrence Wood
+  categories:
+  - All Posts
