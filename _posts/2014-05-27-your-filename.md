@@ -1,6 +1,9 @@
 ---
 layout: blog
 published: false
+tags: 
+  - apples
+  - bananas
 ---
 
 ## A New Post
