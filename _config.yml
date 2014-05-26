@@ -1,3 +1,10 @@
-prose:
-  media: "images"
-  siteurl: "http://terrencewood.com"
+# Site settings
+title: Terrence Wood
+email: terrence.wood@terrencewood.com
+description: "Mobile web maker. Design, urbanism, futurology, and the human condition."
+baseurl: ""
+url: "http://terrencewood.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
