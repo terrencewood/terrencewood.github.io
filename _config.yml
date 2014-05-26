@@ -8,3 +8,15 @@ url: "http://terrencewood.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+
+# prose.io
+
+prose: 
+  metadata:
+    _posts:
+      - name: "noindex"
+      field:
+       element: "checkbox"
+       label: "prevent google indexing"
+       value: false
