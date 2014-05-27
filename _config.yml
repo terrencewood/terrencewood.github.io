@@ -20,38 +20,38 @@ prose:
   siteurl: 'http://terrencewood.com'
   media: 'images'
   ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-  metadata:
-    _posts:
-      - name: 'layout'
-        field:
-          element: 'hidden'
-          value: 'post'
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-    _drafts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
+  - index.md
+  - _config.yml
+  - /_layouts
+  - /_includes
+metadata:
+  "":
+    - name: "layout"
+    field:
+      element: "hidden"
+      value: "page"
+    - name: "title"
+    field:
+      element: "text"
+      label: "Title"
+      value: ""
+    - name: "published"
+    field:
+      element: "checkbox"
+      label: "Published"
+      value: false
+  _posts:
+    - name: "layout"
+    field:
+      element: "hidden"
+      value: "post"
+    - name: "title"
+    field:
+      element: "text"
+      label: "Title"
+      value: ""
+    - name: "published"
+    field:
+      element: "checkbox"
+      label: "Published"
+      value: false
