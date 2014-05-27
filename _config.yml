@@ -10,6 +10,7 @@ exclude: ['README.md', 'package.json', 'node_modules', 'bower_components']
 # Build settings
 markdown: kramdown
 permalink: pretty
+relative_permalinks: false
 
 
 # prose.io
