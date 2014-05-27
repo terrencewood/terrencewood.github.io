@@ -9,7 +9,7 @@ exclude: ['README.md', 'package.json', 'node_modules', 'bower_components']
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: title
 relative_permalinks: false
 
 
