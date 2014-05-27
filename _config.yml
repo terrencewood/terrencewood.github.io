@@ -25,15 +25,6 @@ prose:
     - /_layouts
     - /_includes
   metadata:
-    - name: "layout"
-    field:
-      element: "hidden"
-      value: "page"
-  - name: "permalink"
-    field:
-      element: "text"
-      label: "Permalink"
-      value: ""
     _posts:
       - name: "layout"
         field:
